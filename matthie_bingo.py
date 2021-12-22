@@ -30,7 +30,7 @@ def click(num):
     if not values[num]:
         buttons[num].configure(bg = "green", activebackground="green")
         values[num] = TRUE
-        print("Eintrag erreicht:", buttons[num].cget("text").replace("-\n", "").replace("\n", ""))
+        print("Eintrag erreicht:", buttons[num].cget("text").replace("\n", ""))
         if not sounds:
             sounds = initializeSounds()
         pm.music.load("sounds/" + sounds.pop())
