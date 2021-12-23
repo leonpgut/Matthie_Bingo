@@ -23,6 +23,17 @@ def zeilenumbruch(s, l):
     return aus+s
 
 
+def stringformatierung(s):
+    s2 = s.replace("\n", "")
+    s3 = ""
+    j = 0
+    for i in range(len(s2)):
+        if s2[i] == '-' and i < len(s2) and s2[i+1].islower():
+            s3 += s2[j:i]
+            j = i + 1
+    return s3 + s2[j:]
+
+
 # Funktion für Knopfdruck
 def click(num):
     global sounds
@@ -30,7 +41,7 @@ def click(num):
     if not values[num]:
         buttons[num].configure(bg = "green", activebackground="green")
         values[num] = TRUE
-        print("Eintrag erreicht:", buttons[num].cget("text").replace("\n", ""))
+        print("Eintrag erreicht:", stringformatierung(buttons[num].cget("text")))
         if not sounds:
             sounds = initializeSounds()
         pm.music.load("sounds/" + sounds.pop())
