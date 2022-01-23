@@ -8,7 +8,7 @@ Lustiger Einstieg
 Murksel
 1984
 Hunger
-Lauterdamus
+Lauterdamus / Gammelzahn
 Södolf
 Die Bild
 Hinterzimmer
@@ -20,7 +20,7 @@ Buris
 Mittelstand
 Auswandern
 Nazi-Vergleich
-Heilige Kuh
+Sumpfsuppe / Heilige Kuh / Rosaroter Elefant
 Spahni
 Drostnocchio 
 Tierarzt
@@ -53,3 +53,5 @@ Blackout
 Strom kommt aus der Steckdose
 Sparabo
 Ideologie
+Ankündigungs-matthie
+Gier
